@@ -22,7 +22,7 @@
 
 let number = 1;
 
+console.log(number++)
 console.log(++number)
-console.log(message++)
-console.log(message)
-console.log(message)
+console.log(number--)
+console.log(--number)
