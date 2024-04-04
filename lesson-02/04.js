@@ -1,9 +1,9 @@
 const giveMeRightCondition = (value1, value2, maximum) => {
   if (value1 === value2 && value1 <= maximum) {
-    console.log('Success!');
+      console.log('Success!');
   } else {
-    console.log('Something wrong!');
+      console.log('Something wrong!');
   }
-};
+}
 
-giveMeRightCondition(300, 200, 200);
+giveMeRightCondition(100, 101, 200);
