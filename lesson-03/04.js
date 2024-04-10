@@ -62,7 +62,7 @@ const users = [
 ];
 
 
-let newArr = users.filter((user) => user.id % 2 === 0)
+let newArr2 = users.filter((user) => user.id % 2 === 0)
 
-console.log(newArr)
+console.log(newArr2)
 

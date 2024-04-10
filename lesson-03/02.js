@@ -4,9 +4,9 @@ const words = ["яблоко", "банан", "апельсин", "манго", "
 let searchResult = words.indexOf("апельсин")
 
 if(searchResult !== -1){
-  return console.log("Ура! нашел")
+  console.log("Ура! нашел")
 }else{
-  return console.log("Придется поискать в другом магазине…")
+  console.log("Придется поискать в другом магазине…")
 }
 
 
